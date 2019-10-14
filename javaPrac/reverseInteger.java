@@ -1,5 +1,9 @@
-import java.util.Scanner;
+/*给出一个 32 位的有符号整数，你需要将这个整数中每位上的数字进行反转。
+**假设我们的环境只能存储得下 9 位的有符号整数，则其数值范围为 [−2^9, 2^9 − 1]。
+**根据这个假设，如果反转后整数溢出那么就返回 0。
+*/
 
+import java.util.Scanner;
 public class reverseInteger{
 
 	public static int reverse(int num){
